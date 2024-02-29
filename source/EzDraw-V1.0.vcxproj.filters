@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\imGui">
+      <UniqueIdentifier>{f0aa269e-06b3-4161-9590-3a2d4439f8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imGui">
+      <UniqueIdentifier>{ec05b48a-0a6b-41f0-ad7e-a1c4799119ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GPUsystem">
+      <UniqueIdentifier>{df94775b-8098-4652-a7e5-d59fab9fc2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GPUsystem">
+      <UniqueIdentifier>{8dc104fe-3c79-4d50-ba2a-65255c418357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphicObject">
+      <UniqueIdentifier>{1d575379-745d-421f-b0c2-7b0fa6c81129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphicObject">
+      <UniqueIdentifier>{01fc5556-b9ac-46f1-9abf-9749db88121b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommandPackage">
+      <UniqueIdentifier>{6b6a5ba0-bdee-4229-99b5-ba35e022681a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandPackage">
+      <UniqueIdentifier>{88e0f322-5889-4eed-90f4-23f5027fdcc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_demo.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_draw.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_tables.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_widgets.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="EzDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUsystem\Shader.cpp">
+      <Filter>Source Files\GPUsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUsystem\Renderer.cpp">
+      <Filter>Source Files\GPUsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_stdlib.cpp">
+      <Filter>Source Files\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPackage\Command.cpp">
+      <Filter>Source Files\CommandPackage</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPackage\CommandManager.cpp">
+      <Filter>Source Files\CommandPackage</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicObject\LayerManager.cpp">
+      <Filter>Source Files\graphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicObject\Layer.cpp">
+      <Filter>Source Files\graphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicObject\IDManager.cpp">
+      <Filter>Source Files\graphicObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imGui\imconfig.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_glfw.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_internal.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_rectpack.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_textedit.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_truetype.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="EzDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUsystem\Shader.h">
+      <Filter>Header Files\GPUsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUsystem\Renderer.h">
+      <Filter>Header Files\GPUsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\Point.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\Line.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\graphicObject.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPackage\Command.h">
+      <Filter>Header Files\CommandPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPackage\CommandManager.h">
+      <Filter>Header Files\CommandPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\Layer.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\IDManager.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\LayerManager.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_stdlib.h">
+      <Filter>Header Files\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicObject\Rectangular.h">
+      <Filter>Header Files\graphicObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="line.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="line.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
